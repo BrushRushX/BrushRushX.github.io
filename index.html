@@ -1,23 +1,63 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>BrushRushX | Art & Merch</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BrushRushX | Bold Art & Design</title>
     <style>
-        body { font-family: Arial, text-align: center; padding: 20px; }
-        h1 { color: #ff6b6b; }
-        img { max-width: 100%; border: 2px solid #eee; }
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5; /* Svijetlo siva pozadina */
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            text-align: center;
+        }
+        .header {
+            margin-bottom: 30px;
+        }
+        h1 {
+            color: #333; /* Tamno siva boja teksta */
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+        .buttons {
+            display: flex;
+            gap: 15px;
+            margin-top: 20px;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .btn {
+            display: inline-block;
+            padding: 12px 25px;
+            background-color: #ff6b6b; /* Roze-crvena boja */
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: all 0.3s ease;
+        }
+        .btn:hover {
+            background-color: #ff4757; /* Tamnija nijansa na hover */
+            transform: translateY(-2px);
+        }
     </style>
 </head>
 <body>
-    <h1>CREATE LOUDLY</h1>
-    <p>Bold, hand-painted typography design:</p>
-    <!-- Tvoja slika -->
-    <img src="create_loudly_design.jpg" alt="Create Loudly design with brushstrokes">
-    
-    <!-- Linkovi -->
-    <p>
-        <a href="https://redbubble.com/people/BrushRushX">RedBubble</a> | 
-        <a href="https://teepublic.com/user/brushrushx">TeePublic</a>
-    </p>
+    <div class="header">
+        <h1>BrushRushX</h1>
+        <p>Bold art and vibrant designs</p>
+    </div>
+
+    <div class="buttons">
+        <a href="https://www.redbubble.com/people/BrushRushX/shop" class="btn">RedBubble</a>
+        <a href="https://www.teepublic.com/user/brushrushx" class="btn">TeePublic</a>
+        <a href="https://www.spreadshirt.com/shop/user/brushrushx/" class="btn">Spreadshirt</a>
+    </div>
 </body>
 </html>
